@@ -26,7 +26,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=['torch', 'numpy', 'ocnn'],
-    python_requires='>=3.8',
+    python_requires='>=3.7',
     license='MIT',
     ext_modules=[
         CUDAExtension(
